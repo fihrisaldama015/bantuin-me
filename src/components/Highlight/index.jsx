@@ -1,0 +1,30 @@
+import Services from "./Services";
+
+function Highlight() {
+  return (
+    <div className="py-24 px-48 bg-slate-700 flex flex-col gap-12">
+      <Services content="left" title="Desain dan Pengembangan Website">
+        Kami menggunakan teknologi terkini dan praktik terbaik dalam memastikan
+        website Anda memiliki tampilan yang menarik, fungsional, dan responsif
+        di berbagai perangkat.
+      </Services>
+      <Services content="right" title="Optimisasi Mesin Pencari (SEO)">
+        Dengan strategi SEO yang efektif, kami membantu meningkatkan visibilitas
+        online Anda dan mengarahkan lalu lintas yang relevan ke website Anda.
+      </Services>
+      <Services content="left" title="Integrasi E-commerce">
+        Membantu Anda mengintegrasikan solusi e-commerce yang sesuai dengan
+        kebutuhan bisnis Anda. Kami dapat mengembangkan toko online yang aman,
+        user-friendly, dan mudah dikelola.
+      </Services>
+      <Services content="right" title="Desain Grafis dan Identitas Merek">
+        Selain pengembangan website, kami juga menyediakan layanan desain grafis
+        untuk logo, brosur, pamflet, dan materi pemasaran lainnya. Kami dapat
+        membantu menciptakan identitas merek yang konsisten dan menarik untuk
+        meningkatkan citra bisnis Anda.
+      </Services>
+    </div>
+  );
+}
+
+export default Highlight;
