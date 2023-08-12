@@ -1,13 +1,16 @@
 import BlobShape from "../../assets/blob.svg";
 function Hero() {
   return (
-    <div className="relative py-12 px-24 min-h-screen flex justify-center items-center">
+    <div
+      id="hero"
+      className="relative sm:py-12 sm:px-24 p-8 min-h-screen flex justify-center items-center"
+    >
       <div className="absolute top-[20%] right-[10%] blur-2xl opacity-20">
         <img src={BlobShape} width={500} height={500} alt="" />
       </div>
       <div className="z-10">
         <p className="text-slate-700 font-semibold">Bantuin Web Solutions</p>
-        <h1 className="text-5xl font-extrabold text-slate-900 drop-shadow-sm">
+        <h1 className="sm:text-5xl text-3xl font-extrabold text-slate-900 drop-shadow-sm">
           Solusi kreatif dan inovatif untuk memenuhi kebutuhan digital
           perusahaan Anda.
         </h1>
