@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Highlight from "./components/Highlight";
 import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Highlight />
       <CallToAction />
+      <Contact />
       <Footer />
     </>
   );

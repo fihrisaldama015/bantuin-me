@@ -9,8 +9,10 @@ function Hero() {
         <img src={BlobShape} width={500} height={500} alt="" />
       </div>
       <div className="z-10">
-        <p className="text-slate-700 font-semibold">Bantuin Web Solutions</p>
-        <h1 className="sm:text-5xl text-3xl font-extrabold text-slate-900 drop-shadow-sm">
+        <p className="mb-3 text-slate-800 font-semibold">
+          Bantuin Web Solutions
+        </p>
+        <h1 className="sm:text-5xl text-3xl font-black text-slate-900 drop-shadow-sm">
           Solusi kreatif dan inovatif untuk memenuhi kebutuhan digital
           perusahaan Anda.
         </h1>

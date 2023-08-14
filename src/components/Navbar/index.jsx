@@ -1,3 +1,5 @@
+import NavbarLink from "./NavbarLink";
+
 function Navbar() {
   return (
     <div className="sm:px-24 px-8 bg-slate-50 relative">
@@ -6,16 +8,10 @@ function Navbar() {
           <img src="/logo.png" alt="logo" width={48} height={48} />
           {/* <h1>Bantuin</h1> */}
         </a>
-        <div className="flex gap-6 items-center font-semibold">
-          <div className="text-slate-950 py-1 transition-all ease-in border-b-2 border-transparent hover:border-slate-700">
-            <a href="#service">Service</a>
-          </div>
-          <div className="text-slate-950 py-1 transition-all ease-in border-b-2 border-transparent hover:border-slate-700/90">
-            <a href="#projects">Projects</a>
-          </div>
-          <div className="text-slate-950 py-1 transition-all ease-in border-b-2 border-transparent hover:border-slate-700">
-            <a href="#contact">Contact</a>
-          </div>
+        <div className="flex gap-6 items-center font-semibold relative">
+          <NavbarLink url="#service">Service</NavbarLink>
+          <NavbarLink url="#projects">Projects</NavbarLink>
+          <NavbarLink url="#contact">Contact</NavbarLink>
         </div>
       </div>
     </div>
