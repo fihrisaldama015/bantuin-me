@@ -15,9 +15,11 @@ function Hero() {
           Solusi kreatif dan inovatif untuk memenuhi kebutuhan digital
           perusahaan Anda.
         </h1>
-        <button className="mt-12 py-4 px-8 bg-gradient-to-br from-slate-900 to-slate-900/80 text-lg text-white font-bold rounded-xl hover:text-black hover:from-slate-400/70 hover:to-slate-400 focus:outline-none transition-all">
-          Mulai Sekarang
-        </button>
+        <a href="#price">
+          <button className="mt-12 py-4 px-8 bg-gradient-to-br from-slate-900 to-slate-900/80 text-lg text-white font-bold rounded-xl hover:scale-105 focus:outline-none transition-all duration-300 ease-in-out">
+            Mulai Sekarang
+          </button>
+        </a>
       </div>
     </div>
   );

@@ -8,9 +8,11 @@ function CallToAction() {
         Tingkatkan perangkat lunak dan kreasi digital Anda ke level selanjutnya
         dengan Bantuin.
       </p>
-      <button className="my-6 py-2 px-4 bg-slate-300 text-sm text-slate-900 font-bold rounded-lg hover:text-black hover:bg-slate-400/70 focus:outline-none transition-all">
-        Mulai Sekarang!
-      </button>
+      <a href="#price">
+        <button className="my-6 py-2 px-4 bg-slate-300 text-sm text-slate-900 font-bold rounded-lg hover:text-black hover:bg-slate-400/70 focus:outline-none transition-all">
+          Mulai Sekarang!
+        </button>
+      </a>
     </div>
   );
 }
