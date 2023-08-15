@@ -14,15 +14,15 @@ function Price() {
   return (
     <div
       id="price"
-      className="px-24 min-h-screen flex flex-col justify-center items-center"
+      className="md:px-24 px-12 min-h-screen flex flex-col justify-center items-center"
     >
       <h3 className="mb-3 text-xl font-normal text-slate-700">
         Our Price List
       </h3>
-      <h1 className="mb-16 text-4xl font-extrabold text-slate-900">
+      <h1 className="mb-16 text-4xl text-center font-extrabold text-slate-900">
         Bagaimana Kami Bantuin Project Anda?
       </h1>
-      <div className="flex md:flex-row flex-col justify-center md:gap-6 gap-12">
+      <div className="flex lg:flex-row flex-col justify-center md:gap-6 gap-12">
         <div className="p-8 hover:scale-105 hover:shadow-lg hover:-translate-y-2 transition-all ease-in-out duration-500 ring-1 shadow-sm ring-slate-200 rounded-xl flex flex-col items-center">
           <p className="text-center font-semibold text-xl">Intermediate</p>
           <p className="mb-6 text-center text-sm">Website Dinamis</p>

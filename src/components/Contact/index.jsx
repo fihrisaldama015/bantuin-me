@@ -2,7 +2,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="h-screen gap-3 flex flex-col items-center justify-center text-center"
+      className="h-screen gap-3 px-12 flex flex-col items-center justify-center text-center"
     >
       <h1 className="mb-6 text-5xl font-extrabold text-slate-900">About Us</h1>
       <div>

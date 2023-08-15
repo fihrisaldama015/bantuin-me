@@ -6,7 +6,7 @@ function Services({ content, children, title, img }) {
         content === "right" ? "lg:flex-row-reverse" : "lg:flex-row"
       } `}
     >
-      <div className="w-[700px] rounded-xl ring-1 ring-white/50 bg-slate-600 flex items-center">
+      <div className="md:w-[700px] w-full rounded-xl ring-1 ring-white/50 bg-slate-600 flex items-center">
         <img src={img} alt="" className="object-cover rounded-xl" />
       </div>
       <div className={`${content === "left" ? "text-right" : "text-left"}`}>

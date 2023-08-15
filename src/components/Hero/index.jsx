@@ -11,7 +11,7 @@ function Hero() {
         <p className="mb-3 text-slate-800 font-semibold">
           Bantuin Web Solutions
         </p>
-        <h1 className="sm:text-5xl text-3xl font-black text-slate-900 drop-shadow-sm">
+        <h1 className="sm:text-5xl text-4xl font-black text-slate-900 drop-shadow-sm">
           Solusi kreatif dan inovatif untuk memenuhi kebutuhan digital
           perusahaan Anda.
         </h1>
