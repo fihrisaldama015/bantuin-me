@@ -1,4 +1,4 @@
-import "./App.css";
+/* eslint-disable react/prop-types */
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Highlight from "./components/Highlight";
@@ -6,8 +6,10 @@ import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Price from "./components/Price";
+import Checkout from "./components/Checkout";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+function Home() {
   return (
     <>
       <Navbar />
@@ -18,6 +20,17 @@ function App() {
       <Contact />
       <Footer />
     </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/checkout" element={<Checkout />} />
+      </Routes>
+    </Router>
   );
 }
 

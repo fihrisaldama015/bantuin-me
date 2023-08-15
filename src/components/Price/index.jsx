@@ -1,3 +1,5 @@
+import { createSearchParams, useNavigate } from "react-router-dom";
+
 function CheckBox() {
   return (
     <img
@@ -11,6 +13,15 @@ function CheckBox() {
 }
 
 function Price() {
+  const navigate = useNavigate();
+  const checkoutProduct = (id) => {
+    navigate({
+      pathname: "/checkout",
+      search: createSearchParams({
+        id: id,
+      }).toString(),
+    });
+  };
   return (
     <div
       id="price"
@@ -41,11 +52,14 @@ function Price() {
             Rp<h1 className="text-4xl font-bold text-slate-800">2.999.000</h1>
           </span>
           <p className="mb-6 text-blue-500 font-semibold">+ Gratis Revisi</p>
-          <a href="https://wa.me/6281234809260/?text=Saya+tertarik+untuk+paket+Intermediate+(Website+Dinamis)+dengan+harga+Rp2.999.000">
-            <button className="px-4 py-2 rounded-md bg-blue-500 hover:scale-95 transition-all ease-in-out duration-300 ring-1 ring-blue-50 font-bold text-white">
-              Mulai Sekarang
-            </button>
-          </a>
+          {/* <a href="https://wa.me/6281234809260/?text=Saya+tertarik+untuk+paket+Intermediate+(Website+Dinamis)+dengan+harga+Rp2.999.000"> */}
+          <button
+            onClick={() => checkoutProduct(2)}
+            className="px-4 py-2 rounded-md bg-blue-500 hover:scale-95 transition-all ease-in-out duration-300 ring-1 ring-blue-50 font-bold text-white"
+          >
+            Mulai Sekarang
+          </button>
+          {/* </a> */}
           <div className="my-6 h-[1px] w-full bg-slate-300"></div>
 
           <ul className="[&>li]:flex [&>li]:items-baseline [&>li]:gap-3 flex flex-col gap-3">
@@ -97,11 +111,14 @@ function Price() {
             Rp<h1 className="text-4xl font-bold text-slate-800">1.499.000</h1>
           </span>
           <p className="mb-6 text-red-500 font-semibold">+ Gratis Revisi</p>
-          <a href="https://wa.me/6281234809260/?text=Saya+tertarik+untuk+paket+terlaris+-+Basic+(Website+Statis)+dengan+harga+Rp1.499.000">
-            <button className="px-8 py-4 rounded-md bg-red-500 hover:scale-95 transition-all ease-in-out duration-300 ring-1 ring-blue-50 font-bold text-white">
-              Mulai Sekarang
-            </button>
-          </a>
+          {/* <a href="https://wa.me/6281234809260/?text=Saya+tertarik+untuk+paket+terlaris+-+Basic+(Website+Statis)+dengan+harga+Rp1.499.000"> */}
+          <button
+            onClick={() => checkoutProduct(1)}
+            className="px-8 py-4 rounded-md bg-red-500 hover:scale-95 transition-all ease-in-out duration-300 ring-1 ring-blue-50 font-bold text-white"
+          >
+            Mulai Sekarang
+          </button>
+          {/* </a> */}
           <div className="my-6 h-[1px] w-full bg-slate-300"></div>
           <ul className="[&>li]:flex [&>li]:items-baseline [&>li]:gap-3 flex flex-col gap-3">
             <li>
@@ -150,11 +167,14 @@ function Price() {
             Rp<h1 className="text-4xl font-bold text-slate-800">4.999.000</h1>
           </span>
           <p className="mb-6 text-blue-500 font-semibold">+ Gratis Revisi</p>
-          <a href="https://wa.me/6281234809260/?text=Saya+tertarik+untuk+paket+Advanced+(Website+E-Commerce)+dengan+harga+Rp4.999.000">
-            <button className="px-4 py-2 rounded-md bg-blue-500 hover:scale-95 transition-all ease-in-out duration-300 ring-1 ring-blue-50 font-bold text-white">
-              Mulai Sekarang
-            </button>
-          </a>
+          {/* <a href="https://wa.me/6281234809260/?text=Saya+tertarik+untuk+paket+Advanced+(Website+E-Commerce)+dengan+harga+Rp4.999.000"> */}
+          <button
+            onClick={() => checkoutProduct(3)}
+            className="px-4 py-2 rounded-md bg-blue-500 hover:scale-95 transition-all ease-in-out duration-300 ring-1 ring-blue-50 font-bold text-white"
+          >
+            Mulai Sekarang
+          </button>
+          {/* </a> */}
 
           <div className="my-6 h-[1px] w-full bg-slate-300"></div>
 
