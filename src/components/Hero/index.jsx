@@ -1,4 +1,3 @@
-import BlobShape from "../../assets/blob.svg";
 function Hero() {
   return (
     <div
@@ -6,7 +5,7 @@ function Hero() {
       className="relative sm:py-12 sm:px-24 p-8 min-h-screen flex justify-center items-center"
     >
       <div className="absolute top-[20%] right-[10%] blur-2xl opacity-20">
-        <img src={BlobShape} width={500} height={500} alt="" />
+        <img src="/icon/blob.svg" width={500} height={500} alt="" />
       </div>
       <div className="z-10">
         <p className="mb-3 text-slate-800 font-semibold">

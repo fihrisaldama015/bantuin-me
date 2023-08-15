@@ -1,9 +1,7 @@
-import CallToActionSVG from "../../assets/callToAction.svg";
-
 function CallToAction() {
   return (
     <div className="p-24 h-screen flex flex-col justify-center items-center">
-      <img src={CallToActionSVG} width={128} height={128} alt="" />
+      <img src="/icon/callToAction.svg" width={128} height={128} alt="" />
       <h1 className="mb-6 text-5xl font-extrabold text-slate-900">Ayo Mulai</h1>
       <p className="max-w-md text-center font-normal text-slate-700">
         Siap mengubah impian proyek Anda menjadi kenyataan? Jangan menunggu.

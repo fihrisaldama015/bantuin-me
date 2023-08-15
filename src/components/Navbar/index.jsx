@@ -10,7 +10,7 @@ function Navbar() {
         </a>
         <div className="flex gap-6 items-center font-semibold relative">
           <NavbarLink url="#service">Service</NavbarLink>
-          <NavbarLink url="#projects">Projects</NavbarLink>
+          <NavbarLink url="#price">Price</NavbarLink>
           <NavbarLink url="#contact">Contact</NavbarLink>
         </div>
       </div>

@@ -8,7 +8,10 @@ function Contact() {
       <div>
         <p className="mb-2">Alamat:</p>
         <div className="py-2 px-4 ring-1 ring-slate-300 bg-slate-100 shadow-sm rounded-xl">
-          <b>Jalan Sekeloa No. 7, Bandung, Indonesia</b>
+          <b>
+            Jln. Kapten Tendean Gg. Karya No. 15, Pulo Lor, Kec. Jombang,
+            Kabupaten Jombang, Jawa Timur 61417
+          </b>
         </div>
       </div>
       <di>
