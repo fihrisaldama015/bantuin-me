@@ -73,7 +73,7 @@ function Checkout() {
                 action=""
                 className="flex flex-col [&>label]:text-slate-700"
               >
-                <p className="mb-6 font-semibold">Informasi Pemesan</p>
+                <p className="mb-6 font-semibold">Informasi Personal</p>
                 <div className="flex lg:flex-row flex-col justify-between gap-6 [&>div]:flex [&>div]:flex-col [&>div]:gap-2 [&>div]:flex-1">
                   <div>
                     <label htmlFor="firstName" className="">
