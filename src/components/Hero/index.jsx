@@ -9,7 +9,7 @@ function Hero() {
       </div>
       <div className="z-10">
         <p className="mb-3 text-slate-800 font-semibold">
-          Bantuin Web Solutions
+          Bantuin Tech Solutions
         </p>
         <h1 className="sm:text-5xl text-4xl font-black text-slate-900 drop-shadow-sm">
           Solusi kreatif dan inovatif untuk memenuhi kebutuhan digital

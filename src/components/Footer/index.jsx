@@ -20,7 +20,7 @@ function Footer() {
         </div>
       </div>
       <p className="my-6 text-md tracking-tight text-slate-700">
-        &copy;{new Date().getFullYear()} Bantuin Web Solutions. All rights
+        &copy;{new Date().getFullYear()} Bantuin Tech Solutions. All rights
         reserved.
       </p>
     </div>
